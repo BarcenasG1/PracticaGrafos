@@ -1,15 +1,16 @@
 package Vista;
+import Modelo.Lienzo;
+import javax.swing.JFrame;
 /**
- *
  * @author GhostBarcenas
  */
 public class VistaGrafica {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        JFrame ventana = new JFrame("GRAFO");
+        ventana.add(new Lienzo());
+        ventana.setSize(600, 600);
+        ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        ventana.setVisible(true);
     }
     
 }
