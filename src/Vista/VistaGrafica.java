@@ -2,7 +2,7 @@ package Vista;
 import Modelo.Lienzo;
 import javax.swing.JFrame;
 /**
- * @author GhostBarcenas (Pintar nodos y enlazar)
+ * @author GhostBarcenas (Pintar nodos y enlazar
  */
 public class VistaGrafica {
     public static void main(String[] args) {
