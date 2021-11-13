@@ -1,5 +1,4 @@
 package Vista;
-import Modelo.Lienzo;
 /**
  *
  * @author GhostBarcenas
